@@ -7,3 +7,15 @@ $(document).on("click", 'a[href^="#"]', function (event) {
     1500
   );
 });
+$(document).ready(function () {
+  $(".projects ul").slick({
+    infinite: true,
+    slidesToShow: 3,
+    slidesToScroll: 3,
+    autoplay: true,
+    autoplaySpeed: 3500,
+    arrows: false,
+    // prevArrow: '<button class="slide-arrow prev-arrow"></button>',
+    // nextArrow: '<button class="slide-arrow next-arrow"></button>',
+  });
+});
