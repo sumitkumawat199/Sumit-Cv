@@ -13,9 +13,23 @@ $(document).ready(function () {
     slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 3500,
+    autoplaySpeed: 2000,
     arrows: false,
     // prevArrow: '<button class="slide-arrow prev-arrow"></button>',
     // nextArrow: '<button class="slide-arrow next-arrow"></button>',
   });
+});
+$(document).ready(function () {
+  setTimeout(function () {
+    $("#container").addClass("loaded");
+    // Once the container has finished, the scroll appears
+    if ($("#container").hasClass("loaded")) {
+      // It is so that once the container is gone, the entire preloader section is deleted
+      $("#preloader")
+        .delay(9000)
+        .queue(function () {
+          $(this).remove();
+        });
+    }
+  }, 3000);
 });
