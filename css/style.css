@@ -137,31 +137,6 @@ li {
     transform: rotateY(0deg);
   }
 }
-/* Laptop size back (laptop, tablet, cell phone) */
-@media screen and (max-width: 767px) {
-  /* Preloader */
-  /* Spinner Loading */
-  .container-preloader .animation-preloader .spinner {
-    height: 100px;
-    width: 100px;
-  }
-  /* Text Loading */
-  .container-preloader .animation-preloader .txt-loading {
-    font: bold 3.5em "Montserrat", sans-serif;
-  }
-}
-@media screen and (max-width: 500px) {
-  /* Prelaoder */
-  /* Spinner Loading */
-  .container-preloader .animation-preloader .spinner {
-    height: 7em;
-    width: 7em;
-  }
-  /*Loading text */
-  .container-preloader .animation-preloader .txt-loading {
-    font: bold 2em "Montserrat", sans-serif;
-  }
-}
 .origin {
   text-decoration: none;
   font-size: 45px;
@@ -279,6 +254,7 @@ header {
   font-size: 40px;
   text-align: center;
   font-weight: 900;
+  /* text-transform: ; */
 }
 .projects {
   padding-top: 130px;
@@ -384,4 +360,68 @@ header {
 }
 .my-co span {
   color: #9e00ff;
+}
+.skills {
+  margin-top: 100px;
+}
+
+/* Laptop size back (laptop, tablet, cell phone) */
+@media screen and (max-width: 767px) {
+  .container {
+    width: 100%;
+    padding: 0 15px;
+  }
+  /* Preloader */
+  /* Spinner Loading */
+  .container-preloader .animation-preloader .spinner {
+    height: 100px;
+    width: 100px;
+  }
+  /* Text Loading */
+  .container-preloader .animation-preloader .txt-loading {
+    font: bold 3.5em "Montserrat", sans-serif;
+  }
+  .header-bg {
+    width: 100%;
+    position: fixed;
+  }
+  header {
+    width: 100%;
+  }
+  .menu {
+    display: none;
+  }
+  .logo {
+    width: 100px;
+  }
+  .logo img {
+    width: 100%;
+  }
+  .slider h1 {
+    font-size: 60px;
+    line-height: 60px;
+    margin-bottom: 20px;
+  }
+  .slider h3 {
+    font-size: 24px;
+  }
+  .projects {
+    padding-top: 80px;
+  }
+  .heading h2{
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  /* Prelaoder */
+  /* Spinner Loading */
+  .container-preloader .animation-preloader .spinner {
+    height: 7em;
+    width: 7em;
+  }
+  /*Loading text */
+  .container-preloader .animation-preloader .txt-loading {
+    font: bold 2em "Montserrat", sans-serif;
+  }
 }
