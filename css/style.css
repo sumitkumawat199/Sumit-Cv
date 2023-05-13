@@ -47,7 +47,7 @@ li {
   animation: spinner 1s infinite linear;
   border-radius: 50%;
   border: 10px solid rgba(0, 0, 0, 0.2);
-  border-top-color: #0085ff; /* It is not in alphabetical order so that you do not overwrite it */
+  border-top-color: #9e00ff; /* It is not in alphabetical order so that you do not overwrite it */
   height: 9em;
   margin: 0 auto 3.5em auto;
   width: 9em;
@@ -243,7 +243,7 @@ header {
     display: inline-block;
 } */
 .menu li:last-child {
-  background: #0085ff;
+  background: #9e00ff;
   border-radius: 30px;
   /* margin-left: -10px; */
   margin-left: 260px;
@@ -263,13 +263,14 @@ header {
   background: #0085ff;
 } */
 .menu li:last-child:hover {
-  background: #006cd1;
+  background: #7001b6;
 }
 .menu li:hover a {
-  color: #0085ff;
+  color: #7001b6;
 }
 .slider {
-  background-image: url(../images/slider.jpg);
+  /* background-image: url(../images/slider.jpg); */
+  background: linear-gradient(180deg, #ce7eff 0%, rgba(185, 71, 255, 0) 100%);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 270px 0;
@@ -280,7 +281,7 @@ header {
 .slider h1 {
   font-size: 100px;
   margin-bottom: 50px;
-  color: #005bae;
+  color: #fff;
 }
 .slider h3 {
   font-size: 40px;
@@ -301,7 +302,7 @@ header {
   /* width: 100%; */
 }
 .projects span {
-  color: #0085ff;
+  color: #9e00ff;
 }
 .projects li {
   width: 32%;
@@ -338,7 +339,7 @@ header {
   background: rgb(0, 133, 255, 0);
   padding: 10px 20px;
   border-radius: 30px;
-  color: #005bae;
+  color: #006cd1;
   transition: 0.4s;
 }
 .projects img {
@@ -353,7 +354,7 @@ header {
     1px 1px 4px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1); */
 }
 .projects li:hover a {
-  background: #006cd1;
+  background: #9e00ff;
   color: #fff;
 }
 .overlay {
