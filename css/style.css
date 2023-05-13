@@ -46,32 +46,14 @@ li {
 .container-preloader .animation-preloader .spinner {
   animation: spinner 1s infinite linear;
   border-radius: 50%;
-  border: 10px solid rgba(0, 0, 0, 0.2);
+  /* border: 10px solid rgba(0, 0, 0, 0.2); */
+  border: 10px solid #f9f9f9;
   border-top-color: #9e00ff; /* It is not in alphabetical order so that you do not overwrite it */
   height: 9em;
   margin: 0 auto 3.5em auto;
   width: 9em;
 }
 /* Loading text */
-.container-preloader .animation-preloader .txt-loading {
-  font: bold 5em "Montserrat", sans-serif;
-  text-align: center;
-  user-select: none;
-}
-.container-preloader .animation-preloader .txt-loading .characters:before {
-  animation: characters 4s infinite;
-  color: orange;
-  content: attr(preloader-text);
-  left: 0;
-  opacity: 0;
-  position: absolute;
-  top: 0;
-  transform: rotateY(-90deg);
-}
-.container-preloader .animation-preloader .txt-loading .characters {
-  color: rgba(0, 0, 0, 0.2);
-  position: relative;
-}
 .container-preloader
   .animation-preloader
   .txt-loading
@@ -184,7 +166,7 @@ li {
   text-decoration: none;
   font-size: 45px;
 }
-/* loader */
+/* loader end */
 
 .header-bg {
   background: #ffffff;
@@ -213,39 +195,10 @@ header {
   color: #000;
   transition: 0.4s;
   padding-bottom: 40px;
-  /* position: relative; */
 }
-/* .home {
-  position: relative;
-} */
-/* .menu-border {
-  background: #0085ff;
-  border-radius: 24px 50px 0px 0px;
-  width: 86px;
-  height: 6px;
-  position: absolute;
-  top: 58px;
-  left: -20px;
-  opacity: 0;
-  transition: 0.4s;
-}
-.menu-border:hover {
-  opacity: 1;
-} */
-/* .menu li:nth-child(5) {
-    background: #ffffff;
-    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.15);
-    border-radius: 30px;
-} */
-/* .menu li:nth-child(5) a {
-    padding: 10px 20px;
-    color: #000;
-    display: inline-block;
-} */
 .menu li:last-child {
   background: #9e00ff;
   border-radius: 30px;
-  /* margin-left: -10px; */
   margin-left: 260px;
 }
 .menu li:last-child a {
@@ -256,18 +209,14 @@ header {
 .menu li:last-child:hover a {
   color: #fff;
 }
-/* .menu li:nth-child(5):hover a {
-  color: #fff;
-}
-.menu li:nth-child(5):hover {
-  background: #0085ff;
-} */
 .menu li:last-child:hover {
   background: #7001b6;
 }
 .menu li:hover a {
   color: #7001b6;
 }
+/*  */
+/*  */
 .slider {
   /* background-image: url(../images/slider.jpg); */
   background: linear-gradient(180deg, #ce7eff 0%, #eb00ff 100%);
@@ -311,7 +260,7 @@ header {
 .wave:nth-of-type(2) {
   bottom: 0;
   animation: wave 18s linear reverse infinite;
-  opacity: 0.5;
+  opacity: 0.3;
 }
 
 @keyframes wave {
@@ -332,7 +281,7 @@ header {
   font-weight: 900;
 }
 .projects {
-  padding-top: 140px;
+  padding-top: 130px;
 }
 .projects ul {
   display: flex;
@@ -393,13 +342,13 @@ header {
     10px 13px 10px rgba(0, 0, 0, 0.05), 4px 6px 7px rgba(0, 0, 0, 0.09),
     1px 1px 4px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1); */
 }
-.projects li:hover a {
+/* .projects li:hover a {
   background: #9e00ff;
   color: #fff;
-}
+} */
 .overlay {
-  background: #000000;
-  opacity: 0.9;
+  background: #9e00ff;
+  opacity: 0.1;
   position: absolute;
   width: 100%;
   height: 100%;
@@ -409,7 +358,7 @@ header {
   background-image: url(../images/about.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 100px 0;
+  padding: 100px 0 80px;
   margin-top: 100px;
   position: relative;
   text-align: center;
@@ -418,16 +367,17 @@ header {
 }
 .my-co h2 {
   font-size: 40px;
-  color: #fff;
+  /* color: #fff; */
   z-index: 1;
   position: relative;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 .my-co p {
-  color: #fff;
+  /* color: #fff; */
   z-index: 1;
   position: relative;
-  font-size: 20px;
+  font-size: 24px;
+  font-weight: 500;
   margin: 0 8.2%;
   font-size: 24px;
   line-height: 38px;
