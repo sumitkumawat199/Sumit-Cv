@@ -397,6 +397,9 @@ header {
   .logo img {
     width: 100%;
   }
+  .slider {
+    height: 100vh;
+  }
   .slider h1 {
     font-size: 60px;
     line-height: 60px;
@@ -408,7 +411,7 @@ header {
   .projects {
     padding-top: 80px;
   }
-  .heading h2{
+  .heading h2 {
     font-size: 30px;
   }
 }
@@ -419,9 +422,5 @@ header {
   .container-preloader .animation-preloader .spinner {
     height: 7em;
     width: 7em;
-  }
-  /*Loading text */
-  .container-preloader .animation-preloader .txt-loading {
-    font: bold 2em "Montserrat", sans-serif;
   }
 }
