@@ -364,7 +364,22 @@ header {
 .skills {
   margin-top: 100px;
 }
-
+.skills ul {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+.skills li {
+  margin: 0 16px 16px 0;
+  text-align: center;
+  background: #f9f9f9;
+  border-radius: 10px;
+  width: 197px;
+  height: 174px;
+  padding: 30px;
+}
 /* Laptop size back (laptop, tablet, cell phone) */
 @media screen and (max-width: 767px) {
   .container {
