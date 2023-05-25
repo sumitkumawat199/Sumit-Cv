@@ -301,6 +301,7 @@ header {
 }
 .projects li a {
   font-size: 16px;
+  font-weight: 700;
   background: rgb(0, 133, 255, 0);
   padding: 10px 20px;
   border-radius: 30px;
@@ -311,15 +312,20 @@ header {
   height: 94px;
   width: 100%;
 }
+.projects .web-icon .fa-regular {
+  font-size: 18px;
+  font-weight: 600;
+  padding-left: 10px;
+  vertical-align: middle;
+}
 .projects li:hover {
   background: #ffffff;
-  box-shadow: 4px 4px 10px 3px rgba(0, 0, 0, 0.15);
-  /* box-shadow: 18px 23px 12px rgba(0, 0, 0, 0.01),
-    10px 13px 10px rgba(0, 0, 0, 0.05), 4px 6px 7px rgba(0, 0, 0, 0.09),
-    1px 1px 4px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1); */
+  box-shadow: 0px 4px 10px 5px rgba(0, 0, 0, 0.15);
+  /* box-shadow: 5px 5px 0px 5px #005BAE; */
+  /* box-shadow: 5px 5px 0px 5px #CE7EFF; */
 }
 /* .projects li:hover a {
-  background: #9e00ff;
+  background: #005bae;
   color: #fff;
 } */
 .overlay {
@@ -372,13 +378,18 @@ header {
   margin-top: 40px;
 }
 .skills li {
-  margin: 0 16px 16px 0;
+  margin: 10px;
   text-align: center;
   background: #f9f9f9;
   border-radius: 10px;
-  width: 197px;
+  width: 18.4%;
+  /* width: 200px; */
   height: 174px;
   padding: 30px;
+}
+.skills li h3 {
+  font-size: 16px;
+  font-weight: normal;
 }
 /* Laptop size back (laptop, tablet, cell phone) */
 @media screen and (max-width: 767px) {
@@ -392,10 +403,7 @@ header {
     height: 100px;
     width: 100px;
   }
-  /* Text Loading */
-  .container-preloader .animation-preloader .txt-loading {
-    font: bold 3.5em "Montserrat", sans-serif;
-  }
+
   .header-bg {
     width: 100%;
     position: fixed;
