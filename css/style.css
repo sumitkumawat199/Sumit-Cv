@@ -488,13 +488,49 @@ header {
   .heading h2 {
     font-size: 30px;
   }
+  .my-co {
+    padding: 30px 0;
+    margin-top: 60px;
+  }
+  .my-co h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
 }
-
+  .my-co p {
+    margin: 0;
+    font-size: 14px;
+    line-height: 30px;
+  }
+  .skills {
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 60px;
+  }
+  .skills ul {
+    margin-top: 20px;
+  }
+  .skills li {
+    margin: 10px;
+    text-align: center;
+    background: #f9f9f9;
+    border-radius: 10px;
+    width: 43.4%;
+    /* width: 200px; */
+    height: 130px;
+    padding: 12px;
+  }
+  .skills li h3 {
+    font-size: 14px;
+  }
+  .skills li img{
+    width: 50px;
+  }
+}
 @media screen and (max-width: 500px) {
   /* Prelaoder */
   /* Spinner Loading */
-  .container-preloader .animation-preloader .spinner {
+  /* .container-preloader .animation-preloader .spinner {
     height: 7em;
     width: 7em;
-  }
+  } */
 }
