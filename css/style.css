@@ -392,6 +392,9 @@ header {
   font-size: 16px;
   font-weight: normal;
 }
+.skills li img {
+  height: 70px;
+}
 /* .skills li:hover {
   -webkit-transform: rotateY(180deg);
   -moz-transform: rotateY(180deg);
@@ -495,7 +498,7 @@ header {
   .my-co h2 {
     font-size: 30px;
     margin-bottom: 20px;
-}
+  }
   .my-co p {
     margin: 0;
     font-size: 14px;
@@ -514,16 +517,16 @@ header {
     text-align: center;
     background: #f9f9f9;
     border-radius: 10px;
-    width: 43.4%;
+    width: 44.2%;
     /* width: 200px; */
-    height: 130px;
-    padding: 12px;
+    height: 120px;
+    padding: 19px;
   }
   .skills li h3 {
     font-size: 14px;
   }
-  .skills li img{
-    width: 50px;
+  .skills li img {
+    height: 50px;
   }
 }
 @media screen and (max-width: 500px) {
