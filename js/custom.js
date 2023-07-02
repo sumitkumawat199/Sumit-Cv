@@ -33,3 +33,19 @@ $(document).ready(function () {
     }
   }, 3000);
 });
+$(document).ready(function () {
+  $(".get-in-touch").click(function () {
+    $(".popup-wrapper").fadeIn(500);
+    $(".popup-overlay").fadeIn(500);
+  });
+  $(".popup-close").click(function () {
+    $(".popup-wrapper").fadeOut(500);
+    $(".popup-overlay").fadeOut(500);
+  });
+});
+document.getElementById("submit").addEventListener("click", function (e) {
+  e.preventDefault(); // prevent the default anchor behavior
+
+  // Submit the form
+  document.getElementById("myForm").submit();
+});

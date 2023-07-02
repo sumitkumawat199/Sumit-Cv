@@ -28,7 +28,7 @@
   </head>
   <body>
     <!-- preloader -->
-    <div id="preloader">
+    <!-- <div id="preloader">
       <div id="container" class="container-preloader">
         <div class="animation-preloader">
           <div class="spinner"></div>
@@ -43,7 +43,7 @@
     <a
       class="origin"
       href="https://softcodeon.com/tutorials/how-to-add-preloader-in-html-page.htm"
-    ></a>
+    ></a> -->
     <!--  -->
     <div class="header-bg">
       <main class="container">
@@ -68,7 +68,7 @@
                 <a href="#">Contact</a>
               </li>
               <li>
-                <a href="#">Get in touch</a>
+                <a class="get-in-touch" href="#">Get in touch</a>
               </li>
             </ul>
           </nav>
@@ -82,6 +82,7 @@
       </div>
       <h1>Sumit Kumawat</h1>
       <h3>{ Web Designer }</h3>
+      <h5>Experience: 1 Year</h5>
     </section>
     <main class="container">
       <section class="projects" id="projects">
@@ -375,6 +376,25 @@
         </ul>
       </section>
     </main>
+    <div class="popup-overlay"></div>
+    <section class="popup-wrapper">
+      <div class="left-panel">
+        <!-- <img src="images/pop-up.png" alt="popup" /> -->
+      </div>
+      <div class="right-panel">
+        <h2>GET HIRED ME</h2>
+        <!-- <form id="myForm" action="submit.php" method="POST"> -->
+          <input type="name" placeholder="Company Name" />
+          <input type="file" placeholder="Any Assessmet?" />
+          <input type="name" placeholder="Any Queries?" />
+          <!-- <input type="submit" > -->
+        <!-- </form> -->
+        <a id="submit" href="#">
+          <button type="submit">GET HIRED</button>
+        </a>
+      </div>
+      <div class="popup-close">&times;</div>
+    </section>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script
       type="text/javascript"
